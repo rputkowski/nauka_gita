@@ -8,5 +8,7 @@ cd workspace/nauka_gita
 git config -l
 git config --global user.name "rputkowski"
 
-Tokeny
-????
+git remote add origin https://github.com/rputkowski/nauka_gita.gita
+git branch -m main
+git push -u origin main
+git config --global credential.helper store #Now, git will remember your token
