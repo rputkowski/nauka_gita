@@ -8,6 +8,7 @@ cd workspace/nauka_gita
 git config -l
 git config --global user.name "rputkowski"
 
+#wysyłanie na github
 git remote add origin https://github.com/rputkowski/nauka_gita.gita
 git branch -m main
 git push -u origin main
